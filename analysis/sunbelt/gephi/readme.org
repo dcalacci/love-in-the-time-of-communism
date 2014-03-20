@@ -1,0 +1,7 @@
+* Files and Descriptions
+** dominant_categories.gephi
+- graphs with dominant liwc category for those mentions coloring the edges
+** dominant_category_and_naming_graphs.gephi
+- has information about naming as well
+** what is this?.gephi
+- do not remember

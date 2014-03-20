@@ -1,0 +1,10 @@
+* Files and descriptions
+** dominant_categories.gml
+- dominant liwc categories on edges
+- no information on whether that person was named from summaries
+- there are edges that have no sentiment at all.
+** liwc_dominant_categories_with_naming_only_sent.gml
+- dominant liwc categories on edges
+- has an edge attribute indicating whether or not that person was named
+- only includes edges with sentiment.
+** 
