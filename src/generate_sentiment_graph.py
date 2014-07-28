@@ -15,7 +15,7 @@ for edge in G.edges_iter():
     n += 1
     if n % 50 == 0:
         print n, "edges analyzed"
-    
+
     a_name = unicode(G.node[edge[0]]['label'])
     b_name = unicode(G.node[edge[1]]['label'])
 

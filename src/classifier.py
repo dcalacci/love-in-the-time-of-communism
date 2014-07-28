@@ -202,6 +202,7 @@ def __isNegated(sen, word):
     negations = (map(lambda w: sen_dict.isNegation(w), prevWords))
     return any(negations)
 
+
 def __getCategoriesForWord(sen, word):
     """
     Returns a list of categories that the given word belongs to
@@ -212,7 +213,7 @@ def __getCategoriesForWord(sen, word):
     @param sen: The sentence to analyze.
     @type word: string
     @param word: The word to produce lwic categories for.
-    
+
     @rtype: List of String or None
     @return: The list of lwic cateogires that word belongs to
     """
@@ -226,7 +227,7 @@ def __getCategoriesForWord(sen, word):
                 opposite = sen_dict.getOppositeCategory(c)
                 if opposite:
                     return opposite
-                else: 
+                else:
                     return c
 
             categories = map(replaceCategory, categories)
@@ -335,7 +336,7 @@ def pos_neg_classify_sentence(sen):
 
     @type  sen: sentence
     @param sen: The sentence to analyze
-    
+
     @rtype dict
     @return: a feature vector of [feature] -> [value]
     """
